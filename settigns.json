@@ -1,40 +1,41 @@
 {
-    "files.autoSave": "afterDelay",
-    "editor.fontSize": 16,
-    "editor.lineHeight": 1.8,
-    "editor.wordWrap": "on",
-    "workbench.startupEditor": "newUntitledFile",
-    "editor.rulers": [80, 120],
-    "editor.renderLineHighlight": "gutter",
-    "[prisma]": {
-        "editor.formatOnSave": true
+  "files.autoSave": "afterDelay",
+  "editor.fontSize": 16,
+  "editor.lineHeight": 1.8,
+  "editor.wordWrap": "on",
+  "workbench.startupEditor": "newUntitledFile",
+  "editor.rulers": [80, 120],
+  "editor.renderLineHighlight": "gutter",
+  "[prisma]": {
+      "editor.formatOnSave": true
+  },
+  "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": "explicit"
     },
-    "editor.codeActionsOnSave": {
-        "source.fixAll.eslint": "explicit"
-      },
-      "eslint.validate": [
-        "javascript",
-        "javascriptreact",
-        "graphql"
-      ],
-    "symbols.hidesExplorerArrows": false,
-    "terminal.integrated.fontSize": 14,
-    "editor.fontFamily": "JetBrains Mono",
-    "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
-    "editor.minimap.enabled": false,
-    "workbench.editor.labelFormat": "short",
-    "workbench.iconTheme": "symbols",
-    "workbench.editor.empty.hint": "hidden",
-    "workbench.activityBar.location": "default",
-    "window.titleBarStyle": "native",
-    "explorer.fileNesting.enabled": true,
-    "explorer.sortOrder": "foldersNestsFiles",
-    "explorer.fileNesting.patterns": {
-      "package.json": ".eslint*, prettier*, tsconfig*, vite*, pnpm-lock*, bun.lockb, nest*",
-      "tailwind.config.js": "tailwind.config*, postcss.config*",
-      ".env.local": ".env*",
-      ".env": ".env*"
-    },
-    "workbench.colorTheme": "Min Dark",
-    "workbench.statusBar.visible": false
+    "eslint.validate": [
+      "javascript",
+      "javascriptreact",
+      "graphql"
+    ],
+  "symbols.hidesExplorerArrows": false,
+  "explorer.compactFolders": false,
+  "terminal.integrated.fontSize": 14,
+  "editor.fontFamily": "JetBrains Mono",
+  "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
+  "editor.minimap.enabled": false,
+  "workbench.editor.labelFormat": "short",
+  "workbench.iconTheme": "symbols",
+  "workbench.editor.empty.hint": "hidden",
+  "workbench.activityBar.location": "default",
+  "window.titleBarStyle": "native",
+  "explorer.fileNesting.enabled": true,
+  "explorer.sortOrder": "foldersNestsFiles",
+  "explorer.fileNesting.patterns": {
+    "package.json": ".eslint*, prettier*, tsconfig*, vite*, pnpm-lock*, bun.lockb, nest*",
+    "tailwind.config.js": "tailwind.config*, postcss.config*",
+    ".env.local": ".env*",
+    ".env": ".env*"
+  },
+  "workbench.colorTheme": "Min Dark",
+  "workbench.statusBar.visible": false
 }
